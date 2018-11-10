@@ -4,7 +4,7 @@
   <script src="face-api.js"></script>
 </head>
 <body>
-  <h3 align=center>face-api.js by <a href="https://github.com/justadudewhohacks/face-api.js">@justadudewhohack</a> 
+  <h3 align=center>Not Yet Working! face-api.js by <a href="https://github.com/justadudewhohacks/face-api.js">@justadudewhohack</a> 
     simplified for beginners by <a href="https://www.rocksetta.com/tensorflowjs/">@rocksetta</a></h3>
   Preset for landscape viewing. The <a href="https://github.com/hpssjellis/face-api.js-for-beginners-more-accurate">github is here</a><br>  
 <div id="myDiv01">...</div><br>  
@@ -75,6 +75,8 @@ async function onPlay() {
 async function run() {
    await faceapi.loadFaceRecognitionModel('https://hpssjellis.github.io/face-api.js-for-beginners-more-accurate/')
    await faceapi.loadFaceLandmarkModel('https://hpssjellis.github.io/face-api.js-for-beginners-more-accurate/')
+  
+  
       
    const stream = await navigator.mediaDevices.getUserMedia({ video: {} })
    const videoEl = document.getElementById('inputVideo')
